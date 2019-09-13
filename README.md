@@ -27,6 +27,7 @@ Data Import/Extract Sources and Method:
 -	www.kaggle.com
 -	GCP - (Google Cloud Platform)
 -https://finance.yahoo.com/quote/%5EGSPC/history?period1=-349815600&period2=1576904400&interval=1d&filter=history&frequency=1d
+
 Essentially, we used the website Kaggle to import homicidal data which we derived from 10 major cities in North America. All our data was already in a CSV format, so we simply merged all of our CSV files together using BigQuery. 
 
 Data Acquisition: Our data is static currently. However, it has the potential to become dynamic in the future. Since we found out that datasets on crimes in major cities in North America is limited. We will need to compare and contrast all our datasets and ensure their dates are roughly ranging between the years 1990 through 2019.
